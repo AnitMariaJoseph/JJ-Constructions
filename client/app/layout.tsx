@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "J & J Constructions",
+  title: "J & J Engineers",
   description: "Construction services Website",
 };
 

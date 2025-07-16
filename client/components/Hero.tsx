@@ -8,7 +8,7 @@
 export default function Hero() {
   return (
     // Section block with full width, light gray background, and vertical padding
-    <section className="w-full bg-gray-50 py-20">
+    <section className="w-full bg-gray-50 py-17">
       
       {/* Container to center the content and limit its maximum width */}
       <div className="max-w-7xl mx-auto px-6 text-center">
