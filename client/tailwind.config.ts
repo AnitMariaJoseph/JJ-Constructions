@@ -12,8 +12,10 @@ export default {
         sans: ['var(--font-geist-sans)'],
         mono: ['var(--font-geist-mono)'],},
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#C03333",
+        foreground: "C03333",
+        primary: '#C03333',
+        accent: '#FBBF24',
       },
     },
   },
