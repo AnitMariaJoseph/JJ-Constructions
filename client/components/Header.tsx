@@ -25,11 +25,11 @@ export default function Header() {
     </div>
 
     <nav className="space-x-5 text-base font-medium text-gray-700">
-      <a href="/" className="hover:text-blue-600 transition">Home</a>
-      <a href="/about" className="hover:text-blue-600 transition">About</a>
-      <a href="/services" className="hover:text-blue-600 transition">Services</a>
-      <a href="/projects" className="hover:text-blue-600 transition">Projects</a>
-      <a href="/contact" className="hover:text-blue-600 transition">Contact</a>
+      <Link href="/" className="hover:text-blue-600 transition">Home</Link>
+      <Link href="/about" className="hover:text-blue-600 transition">About</Link>
+      <Link href="/services" className="hover:text-blue-600 transition">Services</Link>
+      <Link href="/projects" className="hover:text-blue-600 transition">Projects</Link>
+      <Link href="/contact" className="hover:text-blue-600 transition">Contact</Link>
     </nav>
   </div>
 </header>
@@ -58,11 +58,11 @@ export default function Header() {
 </div>
         <h1 className="text-xl font-bold">J & J Engineers</h1>
         <nav className="space-x-4">
-          <a href="#" className="hover:underline">Home</a>
-          <a href="#" className="hover:underline">About</a>
-          <a href="#" className="hover:underline">Services</a>
-          <a href="#" className="hover:underline">Projects</a>
-          <a href="#" className="hover:underline">Contact</a>
+          <a href="#" className="hover:underline">Home</Link>
+          <a href="#" className="hover:underline">About</Link>
+          <a href="#" className="hover:underline">Services</Link>
+          <a href="#" className="hover:underline">Projects</Link>
+          <a href="#" className="hover:underline">Contact</Link>
         </nav>
       </div>
     </header>

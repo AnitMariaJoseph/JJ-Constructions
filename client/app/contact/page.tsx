@@ -26,13 +26,13 @@ export default function ContactPage() {
       <section className="w-full bg-blue-950 py-20">
       <h1 className="text-5xl font-bold mb-6 text-center text-yellow-600">Contact Us</h1>
       <p className="text-center text-yellow-600 mb-7">
-  We'd love to hear from you! Whether it's a question, feedback, or a new project idea — drop us a message below.
+  We would love to hear from you! Whether it is a question, feedback, or a new project idea — drop us a message below.
       </p>
       </section>
 } 
       <section className="max-w-2xl mx-auto py-2 px-4">
       {submitted ? (
-        <p className="text-green-600  text-center">Thank you for your message! We'll get back to you soon.</p>
+        <p className="text-green-600  text-center">Thank you for your message! We will get back to you soon.</p>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded shadow">
           <div>
