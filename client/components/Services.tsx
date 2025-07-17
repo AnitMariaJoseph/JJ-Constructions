@@ -27,7 +27,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6 text-center">
         
         {/* Section heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-blue-950 mb-4">
           Our Services
         </h2>
 

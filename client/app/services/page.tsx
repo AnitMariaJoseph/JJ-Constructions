@@ -27,7 +27,7 @@ export default function ServicesPage() {
       {
     //<section className="w-full py-16 bg-white">
         <section className="bg-blue-950 text-yellow-600 py-20 text-center">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-6xl mx-auto px-10 text-center">
         <h1 className="text-5xl font-bold text-yellow-600 mb-6">Our Services</h1>
         <p className="text-yellow-600 max-w-1.5xl text-lg mx-auto mb-7">
           We offer a wide range of construction and design services to bring your vision to life.

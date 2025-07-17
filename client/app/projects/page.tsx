@@ -40,14 +40,20 @@ export default function ProjectsPage() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
-    <section className="w-full bg-gray-50 py-20">
+    <main className="min-h-screen bg-white">
+      {
+    <section className="w-full bg-blue-950 py-20">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold text-blue-900 mb-4">Our Projects</h2>
-        <p className="text-gray-600 max-w-xl mx-auto mb-12">
+        <h2 className="text-5xl font-bold text-yellow-600 mb-6">Our Projects</h2>
+        <p className="text-yellow-600 max-w-2x1 text-lg mx-auto mb-7">
           Explore our portfolio of residential, commercial, and renovation works.
         </p>
-
-        <div className="grid gap-8 md:grid-cols-3">
+      </div>
+    </section>
+      }
+      {
+    <section>
+        <div className="grid gap-8 py-8 px-10 md:grid-cols-3">
           {projects.map((project) => (
             <div
               key={project.id}
@@ -68,7 +74,7 @@ export default function ProjectsPage() {
             </div>
           ))}
         </div>
-      </div>
+      
 
       {/* Modal */}
       {selectedProject && (
@@ -80,7 +86,8 @@ export default function ProjectsPage() {
         />
       )}
     </section>
-  );
 }
+</main>
+  );
 
-
+}

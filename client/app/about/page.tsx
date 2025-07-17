@@ -3,7 +3,7 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white">
       {
-        <section className="bg-blue-950 text-yellow-600 py-24 text-center">
+        <section className="bg-blue-950 text-yellow-600 py-20 text-center">
   <h1 className="text-4xl md:text-5xl font-bold mb-4">
     Who&nbsp;We&nbsp;Are
   </h1>
