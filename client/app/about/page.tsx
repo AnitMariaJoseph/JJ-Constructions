@@ -50,10 +50,10 @@ export default function AboutPage() {
 
     <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
       {[
-        { name: "Joseph Thomas", role: "Founder & CEO", photo: "public/images/About/team/Joseph.jpg" },
-        { name: "Emmanuel J.", role: "Head Engineer", photo: "public/images/About/team/Emmanuel.jpg" },
-        { name: "Akhil M.", role: "Site Supervisor", photo: "public/images/About/team/Akhil.jpg" },
-        { name: "Meera Sudhi", role: "Architect", photo: "public/images/About/team/Meera.jpg" },
+        { name: "Joseph Thomas", role: "Founder & CEO", photo: "public/images/About/Team/Joseph.jpg" },
+        { name: "Emmanuel J.", role: "Head Engineer", photo: "public/images/About/Team/Emmanuel.jpg" },
+        { name: "Akhil M.", role: "Site Supervisor", photo: "public/images/About/Team/Akhil.jpg" },
+        { name: "Meera Sudhi", role: "Architect", photo: "public/images/About/Team/Meera.jpg" },
       ].map((person) => (
         <div key={person.name}>
           <img
